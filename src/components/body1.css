@@ -1,0 +1,72 @@
+/*     BODY1 ! Styles ---------------------------------------------------------------
+-----------------------------------------------------------------------------*/
+.black2Bg {
+  background-color: #131313; }
+
+.bodyElement__title {
+  color: white;
+  font-size: 35px;
+  font-weight: 700;
+  padding-top: 35px; }
+
+.bodyElement__1 {
+  background-image: url("../img/DEPOSIT.png");
+  background-repeat: no-repeat;
+  background-position: center center; }
+
+.bodyElement__2 {
+  background-image: url("../img/RECEIVE BONUS.png");
+  background-repeat: no-repeat;
+  background-position: center center; }
+
+.bodyElement__3 {
+  background-image: url("../img/TRADE.png");
+  background-repeat: no-repeat;
+  background-position: center center; }
+
+.bodyElement__text {
+  color: white;
+  padding-top: 30px; }
+
+.bodyElement__text--last {
+  padding-bottom: 30px; }
+
+.bodyElement__text--green {
+  color: #3faa49; }
+
+@media (max-width: 1215px) {
+  .bodyElement__2 {
+    background-image: url("../img/RECEIVE2.png");
+    background-position: center center; } }
+
+@media (max-width: 992px) {
+  .bodyElement__1 {
+    background-image: url("../img/DEPOSIT2.png");
+    background-position: center center; }
+  .bodyElement__2 {
+    background-image: url("../img/RECEIVE3.png");
+    background-position: center center; }
+  .bodyElement__3 {
+    background-image: url("../img/TRADE2.png");
+    background-position: center center; }
+  .bodyElement__title {
+    padding-top: 25px;
+    font-size: 25px; }
+  .bodyElement__text {
+    padding-top: 21px;
+    font-size: 14px; }
+  .bodyElement__text--last {
+    padding-bottom: 21px; } }
+
+@media (max-width: 575px) {
+  .bodyElement__2 {
+    background-image: url("../img/RECEIVE4.png");
+    background-position: center center; }
+  .bodyElement__title {
+    padding-top: 18px;
+    font-size: 18px; }
+  .bodyElement__text {
+    padding-top: 15px;
+    font-size: 12px; }
+  .bodyElement__text--last {
+    padding-bottom: 15px; } }

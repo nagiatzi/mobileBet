@@ -1,0 +1,144 @@
+/*BODY 2 ! Styles ---------------------------------------------------------------
+-----------------------------------------------------------------------------*/
+.body2 {
+  position: relative;
+  overflow: hidden; }
+
+.fullscreen-bg {
+  background-color: black;
+  overflow: hidden;
+  position: absolute;
+  height: auto;
+  width: auto;
+  z-index: -100;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%; }
+
+.body2__title, .form__title {
+  color: #494e57;
+  margin-top: 0;
+  padding-top: 100px;
+  padding-bottom: 85px; }
+
+.img__caption {
+  color: white;
+  font-weight: 300;
+  font-size: 18px;
+  padding-top: 15px;
+  padding-left: 0px;
+  padding-right: 0px; }
+
+.buttonContainer {
+  padding-top: 45px; }
+
+.riskWarn--body2 {
+  margin-top: 15px;
+  padding-bottom: 112px; }
+
+p.riskWarn--body2 {
+  color: black;
+  font-weight: 400; }
+
+.packageContainer {
+  padding-right: 0px; }
+  .packageContainer p {
+    color: #494e57;
+    font-weight: 500;
+    letter-spacing: 1.5px; }
+
+.lastPackage p {
+  color: #494e57;
+  font-weight: 500;
+  letter-spacing: 1.5px; }
+
+.container--body2 {
+  padding-left: 0;
+  padding-right: 0; }
+
+@media (max-width: 992px) {
+  .body2__title, .form__title {
+    font-family: "Roboto", sans-serif;
+    padding-top: 70px;
+    padding-bottom: 60px; }
+  .img__caption {
+    font-size: 13px;
+    padding-top: 11px; }
+  .buttonContainer {
+    padding-top: 32px; }
+  .packageContainer {
+    padding-bottom: 20px; }
+  .riskWarn--body2 {
+    margin-top: 15px;
+    padding-bottom: 78px; } }
+
+@media (max-width: 575px) {
+  .eikonidio {
+    width: 60px;
+    height: 50px; }
+  .body2__title, .form__title {
+    padding-top: 30px;
+    padding-bottom: 20px; }
+  .img__caption {
+    font-size: 10px;
+    padding-top: 8px; }
+  .buttonContainer {
+    padding-top: 12px; }
+  .riskWarn--body2 {
+    margin-top: 11px;
+    padding-bottom: 25px; } }
+
+    /*DISCLAIMER! Styles -------------------------------------------------------
+    -----------------------------------------------------------------------------*/
+    .disclaimer {
+      background-color: black;
+      position: relative; }
+
+    .redElement {
+      bottom: 0;
+      left: 50%;
+      margin-bottom: -3px;
+      position: absolute;
+      transform: translateX(-50%); }
+
+    .disclaimer__text {
+      color: #8e8e8e;
+      font-weight: 300; }
+
+    .disclaimer--container {
+      padding: 25px 5px; }
+
+    @media (max-width: 992px) {
+      .disclaimer__text {
+        color: white;
+        font-size: 13px; } }
+
+    @media (max-width: 575px) {
+      .body2 p, h1.body2__title{
+        color: white;
+      }
+      .body2 {
+        background-image: url(../img/nagi.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 0 0;
+        background-clip: border-box;
+        position: relative;
+        z-index: -4; }
+        .body2:after {
+          content: '';
+          position: absolute;
+          left: 0;
+          top: 0;
+          width: 100%;
+          height: 100%;
+          z-index: -1;
+          background: rgba(0, 0, 0, 0.8); }
+
+
+      .disclaimer__text {
+        justify-content: center;
+        letter-spacing: 1.1px;
+        color: white;
+        font-size: 10px; } }

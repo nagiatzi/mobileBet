@@ -1,0 +1,127 @@
+/*Footer Styles ---------------------------------------------------------------
+-----------------------------------------------------------------------------*/
+.myFooter {
+    background-color: #232323;
+}
+
+.footer--container {
+
+  color: #8e8e8e;
+  font-size: 15px; }
+
+.footerTitle {
+  font-weight: 700;
+  padding-top: 70px; }
+
+.footer__mainText {
+  font-weight: 400;
+  padding-top: 35px;
+  text-align: justify; }
+
+.footer--subline {
+  padding-top: 15px;
+  padding-bottom: 70px;
+  text-align: justifyLeft; }
+
+.footer--whiteText {
+  color: white;
+  font-weight: 500; }
+
+.firstList, .secondList {
+  text-align: left;
+  list-style: none; }
+  .firstList li, .secondList li {
+    padding-bottom: 15px; }
+
+.logo3 {
+  padding-top: 70px;
+  padding-bottom: 25px; }
+
+.secondList img {
+  display: inline-block;
+  padding-right: 5px; }
+
+.resetPadding {
+  padding: 0; }
+
+li.footerTitle--2 {
+  font-weight: 700;
+  padding-top: 70px;
+  padding-bottom: 35px; }
+
+.decorativeDiv {
+  border-top: 3px solid #8e8e8e; }
+
+.finalList {
+  padding-top: 35px;
+  padding-bottom: 35px; }
+
+.finalList ul {
+  padding-top: 20px;
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 0;}
+  .finalList ul li {
+    display: inline-block;
+    padding-left: 20px;
+    padding-bottom: 15px;
+    text-align: center; }
+
+.finalList ul li.visa {
+  padding-left: 0; }
+
+@media (max-width: 992px) {
+  .footerTitle {
+    padding-left: 0;
+    padding-top: 49px;
+    text-align: center; }
+  .footer--subline {
+    padding-top: 12px;
+    padding-bottom: 19px; }
+  .footer__mainText {
+    padding-top: 25px; }
+  ul.firstList, ul.secondList, ul.secondList {
+    padding-left: 10; }
+  li.footerTitle--2, .logo3 {
+    padding-top: 41px; }
+
+   }
+
+@media (max-width: 575px) {
+  .footerTitle {
+    padding-top: 34px; }
+  .footer--subline {
+    font-size: 11px;
+    padding-top: 10px;
+    padding-bottom: 14px;
+    padding-left: 15px;
+    padding-right: 15px; }
+  .footer__mainText {
+    font-size: 11px;
+    padding-top: 17px;
+    padding-left: 15px;
+    padding-right: 15px; }
+  .firstList, .secondList, .secondList {
+    text-align: center !important; }
+  ul.firstList, ul.secondList, ul.secondList {
+    padding-left: 15px; }
+  li.footerTitle--2, .logo3 {
+    padding-top: 5px;
+    padding-bottom: 10px; }
+  .finalList {
+    padding-top: 0;
+    padding-bottom: 0;
+    text-align: center; }
+  .visa img, .l2 img {
+    width: 46px;
+    height: 15px; }
+  .socialMedia {
+    width: 25px;
+    height: 20px;
+  }
+  .l3 img {
+    width: 60px;
+    height: 20px; }
+  .l4 img {
+    width: 65px;
+    height: 20px; } }

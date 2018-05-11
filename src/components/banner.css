@@ -1,0 +1,53 @@
+/* BANNER SECTION  Styles ---------------------------------------------------------------
+-----------------------------------------------------------------------------*/
+.banner {
+  background-color: #131313;
+  background-image: url("../img/banner_bg.png");
+  background-size: cover;
+  background-position: center center;
+  padding: 30px 60px; }
+
+.banner--border {
+  border: 4px solid #494e57;
+  padding: 50px; }
+
+.banner__title {
+  color: white;
+  font-weight: 700;
+  font-size: 43px;
+  text-align: left; }
+
+.banner__text {
+  color: #bcbcbc;
+  font-weight: 400;
+  font-size: 24px; }
+
+.banner__timer {
+  text-align: right; }
+
+@media (max-width: 992px) {
+  .banner {
+    padding: 21px 42px; }
+  .banner--border {
+    padding: 35px; }
+  .banner__title {
+    font-size: 30px; }
+  .banner__text {
+    font-size: 17px; }
+  .banner__timer {
+    padding-right: 0px;
+    text-align: center; } }
+
+@media (max-width: 575px) {
+  .banner {
+    padding: 15px 29px; }
+  .banner--border {
+    padding: 25px; }
+  .banner__title {
+    font-size: 19px;
+    text-align: center; }
+  .banner__text {
+    font-size: 12px;
+    text-align: center; }
+  .banner__timer {
+    padding-left: 0px; } }
